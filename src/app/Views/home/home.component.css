@@ -1,0 +1,83 @@
+/* Estilos generales para la sección Home */
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .home:hover {
+    transform: translateY(-5px); /* Efecto de elevación sutil al pasar el ratón */
+  }
+  
+  .home-content {
+    flex: 1;
+    padding-right: 40px;
+    text-align: left;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: color 0.3s ease;
+  }
+  
+  .home-title:hover {
+    color: #3498db; /* Cambio de color del título al hacer hover */
+  }
+  
+  .home-description {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-weight: 300;
+    transition: color 0.3s ease;
+  }
+  
+  .home-btn {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 12px 30px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    letter-spacing: 1px;
+  }
+  
+  .home-btn:hover {
+    background-color: #2980b9; /* Tonalidad más oscura de azul al hacer hover */
+    transform: translateY(-3px); /* Efecto de elevación */
+  }
+  
+  .home-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.05); /* Efecto de escala al hacer hover */
+  }
+  

@@ -1,0 +1,94 @@
+/* Estilos generales para la sección About */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .about:hover {
+    transform: translateY(-5px); /* Efecto de elevación sutil al pasar el ratón */
+  }
+  
+  .about-content {
+    flex: 1;
+    padding-right: 40px;
+    text-align: left;
+  }
+  
+  .about-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: color 0.3s ease;
+  }
+  
+  .about-title:hover {
+    color: #3498db; /* Cambio de color del título al hacer hover */
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: 300;
+    transition: color 0.3s ease;
+  }
+  
+  .skills {
+    margin-top: 30px;
+  }
+  
+  .skills-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+  }
+  
+  .skills-list li:hover {
+    color: #3498db; /* Azul sofisticado al hacer hover */
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.05); /* Efecto de escala al hacer hover */
+  }
+  

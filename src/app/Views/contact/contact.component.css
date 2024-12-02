@@ -1,0 +1,145 @@
+/* Estilos generales para la sección Contact */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact:hover {
+    transform: translateY(-5px); /* Efecto de elevación sutil al pasar el ratón */
+  }
+  
+  .contact-content {
+    flex: 1;
+    padding-right: 40px;
+    text-align: left;
+  }
+  
+  .contact-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-title:hover {
+    color: #3498db; /* Cambio de color del título al hacer hover */
+  }
+  
+  .contact-description {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-weight: 300;
+    transition: color 0.3s ease;
+  }
+  
+  /* Estilo del formulario */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: #2c3e50;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #3498db; /* Azul sofisticado al hacer foco */
+  }
+  
+  .contact-btn {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background-color: #2980b9; /* Tonalidad más oscura de azul al hacer hover */
+    transform: translateY(-3px); /* Efecto de elevación */
+  }
+  
+  /* Estilos para los enlaces sociales */
+  .social-links {
+    margin-top: 30px;
+  }
+  
+  .social-links p {
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .social-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #3498db; /* Azul sofisticado al hacer hover */
+  }
+  
+  .contact-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.05); /* Efecto de escala al hacer hover */
+  }
+  

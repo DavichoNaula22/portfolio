@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    font-family: 'Lora', serif; /* Fuente serif más elegante */
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9; /* Fondo gris claro muy suave */
+    color: #444; /* Texto oscuro pero más suave que el negro */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Estilos para el contenedor principal */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Fondo blanco para el header */
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Sombra más profunda y elegante */
+    z-index: 10;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .container:hover {
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15); /* Efecto de sombra al pasar el ratón */
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 2.2rem;
+    font-weight: 800; /* Más peso para el logo */
+    color: #2c3e50; /* Gris oscuro con un toque azul */
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    transition: color 0.3s ease, transform 0.3s ease, letter-spacing 0.3s ease;
+    padding: 5px 10px;
+  }
+  
+  .logo:hover {
+    color: #3498db; /* Azul sofisticado */
+    transform: translateY(-4px); /* Efecto de elevación más sutil */
+    letter-spacing: 2px; /* Espaciado de letras más amplio */
+  }
+  
+  /* Estilos para la navegación */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 50px; /* Espacio más amplio entre los enlaces */
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #7f8c8d; /* Gris neutro */
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #3498db; /* Azul sofisticado */
+    transform: translateY(-3px); /* Efecto de elevación sutil */
+  }
+  
+  nav a:before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3498db; /* Azul sofisticado en el subrayado */
+    transition: width 0.3s ease;
+  }
+  
+  nav a:hover:before {
+    width: 100%; /* Subrayado que aparece al hacer hover */
+  }
+  
+  /* Enlace activo */
+  nav a.active {
+    font-weight: bold;
+    color: #2c3e50; /* Gris más oscuro para el enlace activo */
+  }
+  
+  /* Estilo para el área del contenido */
+
+  
+  /* Animación de entrada para el contenido */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
